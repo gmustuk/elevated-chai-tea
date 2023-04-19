@@ -1,5 +1,5 @@
 * {
-    font-family: Georgia, serif;
+    font-family: Arial, Georgia, serif;
 }
 
 p {
@@ -7,4 +7,4 @@ p {
    line-height: 30px;
 }
 
-body {margin-left: 40px; }
+body {margin: 50px; }
