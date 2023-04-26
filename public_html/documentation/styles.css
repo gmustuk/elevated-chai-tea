@@ -2,7 +2,7 @@
     font-family: Arial, Georgia, serif;
 }
 
-p {
+p , ul {
      font-size: 20px;
    line-height: 30px;
 }
