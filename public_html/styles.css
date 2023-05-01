@@ -21,7 +21,7 @@
     top: 0;
     width: 30px; /* Set width of image */
     height: 30px; /* Set height of image */
-    background: url("icons8-checked-radio-button-48.png") no-repeat;
+    background: url("images/icons8-checked-radio-button-48.png") no-repeat;
     background-size: contain; /* Scale image to fit inside */
 }
 
