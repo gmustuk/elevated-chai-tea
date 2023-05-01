@@ -30,4 +30,17 @@
     margin-left: 35px; /* Add some left margin */
 }
 
+.cred-height {
+    max-height: 80px;
+}
+
+
+/* Style for the collapse/expand button */
+.collapsible::before {
+    content: url('images/arrow-down.png');
+}
+
+.collapsible.collapsed::before {
+    content: url('images/arrow-right.png');
+}
 
