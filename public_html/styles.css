@@ -1,5 +1,5 @@
 .chai-intro h2 {
-    font-size:100px;
+    font-size:60px;
     line-height: 100px;
     padding-bottom: 15px;
 }
@@ -85,5 +85,27 @@ Custom Red X
 
 .collapsible.collapsed::before {
     content: url('images/arrow-right.png');
+}
+
+
+.masala-chai-bg {
+    background-image: url("images/chai-spices.jpg");
+    background-size: cover;
+    background-opacity: 0.5;
+
+}
+
+
+.masala-chai-intro {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.masala-chai-intro h2 {
+    font-size:50px;
+    line-height: 100px;
+    padding-bottom: 15px;
 }
 
