@@ -109,3 +109,16 @@ Custom Red X
     padding-bottom: 15px;
 }
 
+
+.accordion-body {
+    display: flex;
+    align-items: center;
+}
+
+.accordion-body img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+}
