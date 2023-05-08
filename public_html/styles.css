@@ -4,6 +4,10 @@
     padding-bottom: 15px;
 }
 
+#intro-header {
+    background-color: #F7F5E9;
+}
+
 .custom-list { padding-left: 3vw; }
 .custom-check-mark {
     list-style: none;
@@ -88,6 +92,10 @@ Custom Red X
 }
 
 
+#comparison-grid {
+    background-color: #F7F5E9;
+}
+
 .masala-chai-bg {
     background-image: url("images/chai-spices.jpg");
     background-size: cover;
@@ -110,15 +118,23 @@ Custom Red X
 }
 
 
-.accordion-body {
+
+ .accordion-body {
     display: flex;
-    align-items: center;
+
+}
+
+
+
+
+.accordion-header button {
+    font-size: 25px;
 }
 
 .accordion-body img {
     width: 150px;
     height: 150px;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 30px;
     margin-right: 20px;
 }
