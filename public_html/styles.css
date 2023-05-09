@@ -1,3 +1,7 @@
+html {
+    font-size: 18px;
+}
+
 .chai-intro h2 {
     font-size:60px;
     line-height: 100px;
@@ -100,9 +104,66 @@ Custom Red X
     background-image: url("images/chai-spices.jpg");
     background-size: cover;
     background-opacity: 0.5;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Big Giant Header Image with title */
+
+.bigimageheader {
+    background-image: url("images/cheerful-woman-with-mug-table-autumn-part.jpg");
+    background-size: cover;
+    background-opacity: 0.5;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mobile-image {
+    display: none;
+}
+
+.mobile-only-intro {
+    display: none; /* hide by default */
 
 }
 
+@media (max-width: 768px) {
+    .mobile-only-intro {
+        display: block; /* show on mobile devices */
+    }
+}
+
+.mobile-only-intro h2 {
+    font-size: 2em; /* 32px assuming base font size of 16px */
+    line-height: normal;
+}
+
+.mobile-only-intro h3 {
+    font-size: 1.5em; /* 24px assuming base font size of 16px */
+    line-height: normal;
+}
+
+
+@media (max-width: 767px) {
+    .bigimageheader {
+        display: none;
+    }
+
+    .mobile-image {
+        display: block;
+        text-align: center;
+    }
+
+    .mobile-image img {
+        width: 100%;
+        height: auto;
+    }
+}
 
 .masala-chai-intro {
     color: white;
@@ -138,3 +199,4 @@ Custom Red X
     border-radius: 30px;
     margin-right: 20px;
 }
+
