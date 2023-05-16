@@ -103,8 +103,6 @@ Custom Red X
 .masala-chai-bg {
     background-image: url("images/chai-spices.jpg");
     background-size: cover;
-    background-opacity: 0.5;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,7 +113,6 @@ Custom Red X
 .bigimageheader {
     background-image: url("images/cheerful-woman-with-mug-table-autumn-part.jpg");
     background-size: cover;
-    background-opacity: 0.5;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -180,22 +177,50 @@ Custom Red X
 
 
 
-.accordion-body {
+.ingredient-body {
     display: flex;
+    flex-direction: column; /* Change flex direction to column */
+    align-items: center; /* Center align items horizontally */
+    text-align: left; /* Center align text */
 
 }
-
-
-
-
-.accordion-header button {
+.ingredient-header {
     font-size: 25px;
+    text-align: left;
 }
 
-.accordion-body img {
+@media (max-width: 767px) {
+    .ingredient-header {
+        text-align: center;
+    }
+}
+
+.ingredient-item {
+    margin-top: 30px;
+}
+
+.ingredient-body img {
     width: 150px;
     height: 150px;
     object-fit: cover;
     border-radius: 30px;
-    margin-right: 20px;
+    margin: 0 auto 10px; /* Center the image horizontally using margin */
 }
+
+
+
+
+
+@media (min-width: 768px) { /* Apply styles for screens larger than or equal to 768px (desktop view) */
+    .ingredient-body {
+        flex-direction: row; /* Change flex direction to row */
+        justify-content: flex-start; /* Align items to the start (left) */
+        align-items: flex-start; /* Align items to the start (top) */
+        text-align: left; /* Left align the text */
+    }
+
+    .ingredient-body img {
+        margin-right: 20px; /* Add margin to the right of the image for spacing */
+    }
+}
+
