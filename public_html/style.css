@@ -47,9 +47,6 @@ html {
     #chai-image {
         width: auto;
         height: auto;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
         padding-top: 20px;
     }
 }
@@ -133,21 +130,8 @@ Custom Red X
 }
 
 
-
-
-
 .cred-height {
     max-height: 80px;
-}
-
-
-/* Style for the collapse/expand button */
-.collapsible::before {
-    content: url('images/arrow-down.png');
-}
-
-.collapsible.collapsed::before {
-    content: url('images/arrow-right.png');
 }
 
 
@@ -266,7 +250,6 @@ Custom Red X
 
 
 
-
 @media (min-width: 768px) { /* Apply styles for screens larger than or equal to 768px (desktop view) */
     .ingredient-body {
         flex-direction: row; /* Change flex direction to row */
@@ -279,4 +262,12 @@ Custom Red X
         margin-right: 20px; /* Add margin to the right of the image for spacing */
     }
 }
+
+/* MailChimp */
+#mc_embed_signup{
+       width:600px;
+}
+
+
+
 
